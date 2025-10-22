@@ -2,6 +2,7 @@
 
 [![Project Page](https://img.shields.io/badge/Project-Page-green)](https://videoauteur.github.io)
 [![arXiv](https://img.shields.io/badge/arXiv-2501.06173-b31b1b)](https://arxiv.org/abs/2501.06173)
+[![HuggingFace Dataset](https://img.shields.io/badge/🤗-HuggingFace%20Dataset-blue)](https://huggingface.co/datasets/lambertxiao/CookGen_youcook2)
 
 This is the official repository for "VideoAuteur: Towards Long Narrative Video Generation"
 
@@ -12,9 +13,13 @@ This is the official repository for "VideoAuteur: Towards Long Narrative Video G
 
 Recent video generation models have shown promising results in producing high-quality video clips lasting several seconds. However, these models face challenges in generating long sequences that convey clear and informative events, limiting their ability to support coherent narrations. In this paper, we present a large-scale cooking video dataset designed to advance long-form narrative generation in the cooking domain. We validate the quality of our proposed dataset in terms of visual fidelity and textual caption accuracy using state-of-the-art Vision-Language Models (VLMs) and video generation models, respectively. We further introduce a Long Narrative Video Director to enhance both visual and semantic coherence in generated videos and emphasize the role of aligning visual embeddings to achieve improved overall video quality. Our method demonstrates substantial improvements in generating visually detailed and semantically aligned keyframes, supported by finetuning techniques that integrate text and image embeddings within the video generation process.
 
-## CookGen Dataset
+## CookGen Dataset (**YouCook2**: [![HuggingFace Dataset](https://img.shields.io/badge/🤗-HuggingFace%20Dataset-blue)](https://huggingface.co/datasets/lambertxiao/CookGen_youcook2))
 
 CookGen contains long narrative videos annotated with actions and captions. Each source video is cut into clips and matched with labeled "actions". We use refined pseudo labels from ASR for Howto100M videos and manual annotations for Youcook2 videos. High-quality captions are generated using state-of-the-art VLMs (GPT-4 and a finetuned video captioner) for all video clips.
+
+The dataset is released at Huggingface: 
+
+**Youcook2**: [![HuggingFace Dataset](https://img.shields.io/badge/🤗-HuggingFace%20Dataset-blue)](https://huggingface.co/datasets/lambertxiao/CookGen_youcook2)
 
 ![Dataset Pipeline](Figures/dataset_info/cookgen_dataset.png)
 
