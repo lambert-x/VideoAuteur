@@ -2,8 +2,8 @@
 
 [![Project Page](https://img.shields.io/badge/Project-Page-green)](https://videoauteur.github.io)
 [![arXiv](https://img.shields.io/badge/arXiv-2501.06173-b31b1b)](https://arxiv.org/abs/2501.06173)
-[![HuggingFace Dataset](https://img.shields.io/badge/🤗-HuggingFace%20Dataset-blue)](https://huggingface.co/datasets/lambertxiao/CookGen_youcook2)
-
+[![CookGen-Youcook2](https://img.shields.io/badge/🤗-HuggingFace%20Dataset-blue)](https://huggingface.co/datasets/lambertxiao/CookGen_youcook2)
+[![CookGen-Howto100M](https://img.shields.io/badge/🤗-HuggingFace%20Dataset-blue)](https://huggingface.co/datasets/lambertxiao/CookGen_Howto100M)
 This is the official repository for "VideoAuteur: Towards Long Narrative Video Generation"
 
 
